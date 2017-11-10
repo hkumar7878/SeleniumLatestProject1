@@ -1,0 +1,6 @@
+2017-11-10 12:25:44 INFO  Test:147 - Creating a object of Firefox Browser
+2017-11-10 12:26:08 INFO  Test:157 - Navigating to http://pyramidcore.pyramidci.com/Security/PCILoginNew.aspxfor Firefox browser
+2017-11-10 12:26:19 INFO  Test:65 - #########Login Pyramid Tab is displayed###########
+2017-11-10 12:26:21 INFO  Test:96 - Login Pyramid Tab is displayed and object is:-[[RemoteWebDriver: firefox on ANY (92df978e-89b6-49c5-910b-5a01dac96abb)] -> id: pydLogin_txtUserid]
+2017-11-10 12:26:24 INFO  Test:114 - User id is displayed and object is :-[[RemoteWebDriver: firefox on ANY (92df978e-89b6-49c5-910b-5a01dac96abb)] -> id: pydLogin_txtUserPwd]
+2017-11-10 12:26:27 INFO  TC_01_Verify_Self_Leave_View:58 - ###############Starting Leave Verification Test ################

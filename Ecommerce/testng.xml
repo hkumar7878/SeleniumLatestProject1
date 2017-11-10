@@ -1,0 +1,18 @@
+
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test Suite" verbose="3" thread-count="2" parallel="methods" configfailurepolicy="continue">
+
+<listeners>
+	<listener class-name="ErrorCollectors.TestListenerAdapter" />
+	<listener class-name="CustomListeners.CustomTestListeners" />
+	<listener class-name="CustomListeners.CustomSuiteListener" />
+	<listener class-name="CustomListeners.CustomMethodListerner" />
+</listeners>
+
+    <suite-files>    
+        <suite-file path="D:\Selenium Latest Framework\Ecommerce\Firefox_testng.xml" />
+        <!-- <suite-file path="D:\Ecommer_Grid\Ecommere_Grid\Chrome_testng.xml" /> -->
+        <suite-file path="D:\Selenium Latest Framework\Ecommerce\Chrome_testng.xml" />
+        
+    </suite-files>
+</suite>

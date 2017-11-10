@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Set thread-count = 3 to execute test parallel in 3 max browsers at at time. You can increase it--> 
+<suite name="Functional Test Suite_Firefox" verbose="1" thread-count="1">
+<parameter name="userid" value="hitesh.ghai"> </parameter>
+        <parameter name="password" value="Pyramid123!"></parameter>
+<test name="Windows+firefox Test" >
+
+ 		<parameter name="platform" value="Windows"> </parameter>
+        <parameter name="browserType" value="Firefox"></parameter> 
+        
+        <parameter name="appURL" value="http://pyramidcore.pyramidci.com/Security/PCILoginNew.aspx"></parameter>      
+		<classes> 		
+		<class name="Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page"/>	
+		<class name="Leave_Application_TestCases.TC_01_Verify_Self_Leave_View"/>	
+		</classes>	
+</test> 
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Functional Test Suite_Chrome]">
+  <parameter name="password" value="Pyramid123!"/>
+  <parameter name="appURL" value="http://pyramidcore.pyramidci.com/Security/PCILoginNew.aspx"/>
+  <parameter name="userid" value="hitesh.ghai"/>
+  <parameter name="platform" value="Windows"/>
+  <parameter name="browserType" value="Chrome"/>
+  <test name="Windows+chrome Test(failed)">
+    <parameter name="appURL" value="http://pyramidcore.pyramidci.com/Security/PCILoginNew.aspx"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="browserType" value="Chrome"/>
+    <classes>
+      <class name="Leave_Application_TestCases.TC_01_Verify_Self_Leave_View">
+        <methods>
+          <include name="getMethodName"/>
+          <include name="onBeforeTest"/>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- Leave_Application_TestCases.TC_01_Verify_Self_Leave_View -->
+      <class name="Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page">
+        <methods>
+          <include name="TC_01_Verify_HomePage_Logo"/>
+          <include name="getMethodName"/>
+        </methods>
+      </class> <!-- Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page -->
+    </classes>
+  </test> <!-- Windows+chrome Test(failed) -->
+</suite> <!-- Failed suite [Functional Test Suite_Chrome] -->

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional Test Suite_Firefox" duration-ms="47850" started-at="2017-11-10T06:55:42Z" finished-at="2017-11-10T06:56:30Z">
+    <groups>
+    </groups>
+    <test name="Windows+firefox Test" duration-ms="47850" started-at="2017-11-10T06:55:42Z" finished-at="2017-11-10T06:56:30Z">
+      <class name="Leave_Application_TestCases.TC_01_Verify_Self_Leave_View">
+        <test-method status="PASS" signature="onBeforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:Leave_Application_TestCases.TC_01_Verify_Self_Leave_View@7085bdee]" name="onBeforeTest" is-config="true" duration-ms="1105" started-at="2017-11-10T12:25:42Z" finished-at="2017-11-10T12:25:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@226f885f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onBeforeTest -->
+        <test-method status="SKIP" signature="getMethodName(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:Leave_Application_TestCases.TC_01_Verify_Self_Leave_View@7085bdee]" name="getMethodName" is-config="true" duration-ms="0" started-at="2017-11-10T12:26:27Z" finished-at="2017-11-10T12:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Leave_Application_TestCases.TC_01_Verify_Self_Leave_View.TC_01_Verify_Application_View_Self_Details(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://pyramidcore.pyramidci.com/Security/PCILoginNew.aspx]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC_01_Verify_Self_Leave_View's CaseToRun Flag Is 'N' Or Blank. So Skipping Execution Of TC_01_Verify_Self_Leave_View]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC_01_Verify_Self_Leave_View's CaseToRun Flag Is 'N' Or Blank. So Skipping Execution Of TC_01_Verify_Self_Leave_View
+	at utilLibrary.ActionBeforeTest.beforeTestAction(ActionBeforeTest.java:51)
+	at Leave_Application_TestCases.TC_01_Verify_Self_Leave_View.getMethodName(TC_01_Verify_Self_Leave_View.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="SKIP" signature="TC_01_Verify_Application_View_Self_Details(java.lang.String, java.lang.String)[pri:0, instance:Leave_Application_TestCases.TC_01_Verify_Self_Leave_View@7085bdee]" name="TC_01_Verify_Application_View_Self_Details" duration-ms="0" started-at="2017-11-10T12:26:30Z" finished-at="2017-11-10T12:26:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hitesh.ghai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pyramid123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Verify_Application_View_Self_Details -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:Leave_Application_TestCases.TC_01_Verify_Self_Leave_View@7085bdee]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2017-11-10T12:26:30Z" finished-at="2017-11-10T12:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- Leave_Application_TestCases.TC_01_Verify_Self_Leave_View -->
+      <class name="Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page@59494225]" name="getMethodName" is-config="true" duration-ms="30297" started-at="2017-11-10T12:25:43Z" finished-at="2017-11-10T12:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page.TC_01_Verify_HomePage_Logo(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://pyramidcore.pyramidci.com/Security/PCILoginNew.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_01_Verify_HomePage_Logo(java.lang.String, java.lang.String)[pri:0, instance:Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page@59494225]" name="TC_01_Verify_HomePage_Logo" duration-ms="10369" started-at="2017-11-10T12:26:13Z" finished-at="2017-11-10T12:26:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hitesh.ghai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pyramid123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Verify_HomePage_Logo -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page@59494225]" name="afterEachTest" is-config="true" duration-ms="3550" started-at="2017-11-10T12:26:24Z" finished-at="2017-11-10T12:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_Verify_HomePage_Logo status=SUCCESS method=TC_01_Verify_Logo_On_Application_Home_Page.TC_01_Verify_HomePage_Logo(java.lang.String, java.lang.String)[pri:0, instance:Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- Application_HomePage_TestCases.TC_01_Verify_Logo_On_Application_Home_Page -->
+    </test> <!-- Windows+firefox Test -->
+  </suite> <!-- Functional Test Suite_Firefox -->
+</testng-results>
