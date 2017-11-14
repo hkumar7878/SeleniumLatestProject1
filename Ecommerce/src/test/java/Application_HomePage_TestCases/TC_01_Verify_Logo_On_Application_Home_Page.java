@@ -51,7 +51,16 @@ public class TC_01_Verify_Logo_On_Application_Home_Page extends BaseSetUp{
     String browserID=null;
     String tcDesc=null;
 
-
+    
+    public TC_01_Verify_Logo_On_Application_Home_Page()
+    {
+    	
+    	// The purpose of this constructor is to call the contructor of parent class i.e BaseSetup where 
+    	// contrscutor is defined to load the properties file. This can be acheived by calling the below super() keyword.So
+    	// it will initilize the properties file to user it's value.
+    	super();
+    }
+    
     /*@Parameters({"browserType","appURL"})
     @BeforeMethod()
    // @BeforeTest()
@@ -85,6 +94,9 @@ public class TC_01_Verify_Logo_On_Application_Home_Page extends BaseSetUp{
     public void getMethodName(Method method,String browserType, String appURL) throws IOException, InterruptedException
     {
 
+    	
+    	// String url=prop.getProperty("url"); This is other ALTERNATIVE WAY to get url or any config value from properties file
+    	//which is being initilized in this class constructor. Similary other values can also be fetched from properties file.
     	tcDesc="To Verify that correct number of leaves are displayed under Leave Application module";
         browserID=browserType;
         obj_App_Home_Pg=new ApplicationHomePage(driver);

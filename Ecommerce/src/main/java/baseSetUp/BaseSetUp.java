@@ -1,10 +1,13 @@
 package baseSetUp;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -56,7 +59,29 @@ public class BaseSetUp {
     int i=0;
     String [][] excelData=null;
     public static ExcelReader excelReader = null;
-
+    public static Properties prop;
+   
+    
+    public BaseSetUp()
+    {
+    	try
+    	{
+    		prop = new Properties();
+    		FileInputStream ip=new FileInputStream(System.getProperty("user.dir") + "//src//main//java//config//config.properties");
+    		prop.load(ip);
+    	}
+    	
+    	catch(FileNotFoundException e)
+    	{
+    		e.printStackTrace();
+    	}
+    	
+    	catch(IOException e)
+    	{
+    		e.printStackTrace();
+    	}
+    }
+    
     public void init() throws IOException
     {
     	// Test Change to GIT central repository
