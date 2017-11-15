@@ -60,6 +60,7 @@ public class BaseSetUp {
     String [][] excelData=null;
     public static ExcelReader excelReader = null;
     public static Properties prop;
+    public String app_URL;
    
     
     public BaseSetUp()
@@ -110,6 +111,7 @@ public class BaseSetUp {
         PropertyConfigurator.configure(log4jConfigPath);
         browserID=browserType;
         XMLtestCaseName=testContext.getName();
+        app_URL=prop.getProperty("url");
         try
         {
             if(XMLtestCaseName.contains("firefox"))
